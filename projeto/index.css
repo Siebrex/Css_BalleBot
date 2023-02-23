@@ -1,0 +1,121 @@
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:ital,wght@0,400;0,500;0,700;1,400;1,500;1,700&family=Righteous&family=Sarala:wght@400;700&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box ;
+    text-decoration: none;
+}
+body{
+    font-size:100% ;
+    background:linear-gradient(68.15deg, #2F2325 16.62%, #8E5D52 85.61%);
+}
+
+.cabecalho{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+
+}
+
+.cabecalho-img{
+    border-radius:20ch;
+    padding: 12px;
+    height: 90px;
+    
+}
+
+ .cabecalho-nav {
+    display: flex;
+    gap: 52px;
+    font-family: sans-serif;
+    color:  #fff2e7; 
+    font-family: 'Sarala',sans-serif ;
+    padding: 24px;
+}
+
+.meio-project{
+    margin-bottom: 48px;
+    border-top: 0.4px solid  #FFF2E7;
+}
+
+.titulo-meio{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+}
+.conteudo{
+    display: flex;
+    flex-direction: column;
+    gap: 32px;
+}
+
+.conteudo-titulo{
+    font-family: 'Righteous', cursive;
+    font-weight: 400;
+    font-size: 64px;
+    color: #FFF2E7;
+}
+
+.conteudo-subtitulo{
+    font-family: 'Sarala', sans-serif;
+    font-weight: 400;
+    font-size: 20px;
+    color: #ECD6C4;
+}
+
+.conteudo-button{
+    width: 185px;
+    height: 60px;
+    border:none;
+    box-shadow:4px 5px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 20px;
+    background-color:#ECD6C4;
+    font-family: 'Sarala', sans-serif;
+    font-weight: 400;
+    font-size: 20px;
+    color: #2F2325;
+    ;
+}
+
+.conteudo-robot{
+    height: 430px;
+}
+
+.conteudo-final{
+    display: flex;
+    flex-direction: column;
+    align-items:center;
+    gap: 24px;
+    margin-top: 68px;
+}
+
+.conteudo-div-titulo{
+    margin-bottom: 48px;
+    border-top: 0.4px solid  #FFF2E7;
+    padding-top: 38px;
+    font-family: 'Righteous', cursive;
+    font-weight: 400;
+    font-size: 24px;
+    color: #FFF2E7;
+}
+
+.conteudo-paragraf{
+    font-family:'Sarala', sans-serif; 
+    font-weight: 300;
+    font-size: 18px;
+    color: #ECD6C4;
+
+}
+.footer-1{
+    margin-bottom: 48px;
+    border-top: 0.4px solid  #FFF2E7;
+    padding-top: 38px;
+    color: #ECD6C4;
+}
+
+.footer-2{
+    display:block;
+    margin-left:660px;
+}
